@@ -49,6 +49,7 @@ export class TinyPg {
          max: pool_options.max,
          min: pool_options.min,
          log: Debug('tinypg:pool'),
+         ssl: options.ssl,
       }
 
       this.pool = new Pg.Pool(pool_config)
