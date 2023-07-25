@@ -58,7 +58,7 @@ export interface TinyPgOptions {
    error_transformer?: TinyPgErrorTransformer
    capture_stack_trace?: boolean
    hooks?: TinyHooks
-   ssl:?: {
+   ssl?: {
       rejectUnauthorized: boolean
    }
    pool_options?: {
