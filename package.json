@@ -40,6 +40,7 @@
     "glob": "^7.1.7",
     "lodash": "^4.17.21",
     "tinypg-parser": "^1.0.0",
+    "tsc-transpile-only": "^0.0.3",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
